@@ -94,7 +94,7 @@ The purpose of this project is to review the production data of AutosRUs’ for 
 >![lot3](./Resources/lot3.png)
 
 ## Study Design: MechaCar vs Competition
-> When a consumer decides to buy a car, there could be many factors in place based on prefence, Some of the most common ones are `cost/price`, `safety features/rating`, `type of engine` and `fuel economy` to name a few. One of the key metrics that could be tested is the safety features on MechaCar to its competitors to see how camparable they are. The null or alternative hypothesis could state:
+> When a consumer decides to buy a car, there could be many factors in place based on prefence, Some of the most common ones are `cost/price`, `safety features/rating`, `type of engine` and `fuel economy` to name a few. One of the key metrics that could be tested is the `safety features` on MechaCar to its competitors to see how camparable they are. The null or alternative hypothesis could state:
 > **Null Hypothesis (Ho):** There is no statistical difference between the `Saftey Features` of MechaCar and the Competition
 > **Alternate Hypothesis (Ha):** There is a statistical difference between the `Saftey Features` of MechaCar and the Competition
 > The T-Test would be the prefered choice to test the hypothesis as it would allow for us to compare the two companies and determine whether there are any significant differences/statistical evidence between the two in favour of the hypothesis. To run the statistical test data that details the vehicle make and/or model `crashworthiness`- how well a vehicle protects its occupants in a crash - and  `crash avoidance and mitigation` - technology that can prevent a crash or lessen its severity.
