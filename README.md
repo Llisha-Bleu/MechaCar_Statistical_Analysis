@@ -19,7 +19,7 @@ The purpose of this project is to review the production data of AutosRUs’ for 
 ## Resources
 - **Data Source:** MechaCar MPG dataset, Suspension Coil dataset
 - **Software:** R, Github
-- **Abbreviation: PSI = Pounds per Square Inch
+- **Abbreviation:** PSI = Pound(s) per Square Inch
 
 ## MechaCar Statistical Analysis Results
 >
@@ -40,7 +40,7 @@ The purpose of this project is to review the production data of AutosRUs’ for 
 >![slope_lin](./Resources/slope_lin.png)
 >
 #### Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
-> Based on the results,it can be said that this linear model predict mpg of MechaCar prototypes effectively. The model generated a `Multiple R-squared` value of `0.7149` and a `p-value` of `5.35e-11`. This is a clear indication, that the `null hypothesis` should be `rejected`. It can be said that approximately 72% of the predictions will be correct based on the results produced by the Multiple R-squared value (0.7149), alternatevily if we should also look at the results produced by the Adjusted R-Square (0.6825), we are able to conclude that 68% of the predictions will be correct.
+> Based on the results,it can be said that this linear model predict mpg of MechaCar prototypes effectively. The model generated a `Multiple R-squared` value of `0.7149` and a `p-value` of `5.35e-11`. This is a clear indication, that the `null hypothesis` should be `rejected`. It can be said that approximately `72%` of the predictions will be correct based on the results produced by the Multiple R-squared value (`0.7149`), alternatevily if we should also look at the results produced by the Adjusted R-Square (`0.6825`), we are able to conclude that `68%` of the predictions will be correct.
 >
 ### **Summary Statistics on Suspension Coils**
 >
@@ -59,35 +59,35 @@ The purpose of this project is to review the production data of AutosRUs’ for 
 #### Design Specification Requirements
 >**The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?**
 >
->- In summary it can be said that all lots are in total variance is 76.23 pounds per square inch and all lots in total meet the design specifications. TYhis mostly due to the fact that the variance of the suspension coils does not exceed 100 pounds per square inch.
+>- In summary it can be said that all lots are in total variance is `76.23` pounds per square inch and all lots in total meet the design specifications. This mostly is due to the fact that the variance of the suspension coils does not exceed 100 pounds per square inch.
 >- Lots 1 and 2 meets the design specification variance that does not exceed 100 PSI. Their variance `1.15` and `10.13` psi respectively.
->- Since Lot 3 resulted in a variance of 220 psi, individually, it would fail to meet the design specification requirement as it exceeded by 120 psi.
+>- Since Lot 3 resulted in a variance of `220 psi`, individually, it would fail to meet the design specification requirement as it exceeded by 120 psi.
 >
 ### T-Tests on Suspension Coils
 >
 > **T-Test on `All` lots**
->The results produce a p-value of 0.05; this therfore means that there is not sufficent evidence to reject the null hypothesis
+>The results produce a p-value of `0.0`; this therfore means that there is not sufficent evidence to reject the null hypothesis
 >
 >**Image showing the results of the T-Test on all Lots:**
 >
 >![all_lots](./Resources/all_lots.png)
 >
 > **T-Test on Lot - 1**
->The results produce a p-value of 0.05; this therfore means that there is not sufficent evidence to reject the null hypothesis
+>The results produce a p-value of `0.05`; this therfore means that there is not sufficent evidence to reject the null hypothesis
 >
 >**Image showing the results of the T-Test on Lot 1:**
 >
 >![lot1](./Resources/lot1.png)
 >
 > **T-Test on Lot - 2**
->The results produce a p-value of 0.05; this therfore means that there is not sufficent evidence to reject the null hypothesis
+>The results produce a p-value of `0.05`; this therfore means that there is not sufficent evidence to reject the null hypothesis
 >
 >**Image showing the results of the T-Test on Lot 2:**
 >
 >![lot2](./Resources/lot2.png)
 >
 > **T-Test on Lot - 3**
->The results produce a p-value of 0.05; this therfore means that there is not sufficent evidence to reject the null hypothesis
+>The results produce a p-value of `0.05`; this therfore means that there is not sufficent evidence to reject the null hypothesis
 >
 >**Image showing the results of the T-Test on Lot 3:**
 >
