@@ -59,14 +59,14 @@ The purpose of this project is to review the production data of AutosRUs’ for 
 #### Design Specification Requirements
 >**The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?**
 >
->- In summary it can be said that all lots are in total variance is `76.23` pounds per square inch and all lots in total meet the design specifications. This mostly is due to the fact that the variance of the suspension coils does not exceed 100 pounds per square inch.
->- Lots 1 and 2 meets the design specification variance that does not exceed 100 PSI. Their variance `1.15` and `10.13` psi respectively.
+>- In summary it can be said that all lots are in total variance is `76.23` psi and all lots in total meet the design specifications. This mostly is due to the fact that the variance of the suspension coils does not exceed 100 pounds per square inch.
+>- Lots 1 and 2 meets the design specification variance that does not exceed 100 psi. Their variance `1.15` and `10.13` psi respectively.
 >- Since Lot 3 resulted in a variance of `220 psi`, individually, it would fail to meet the design specification requirement as it exceeded by 120 psi.
 >
 ### T-Tests on Suspension Coils
 >
 > **T-Test on `All` lots**
->The results produce a p-value of `0.0`; this therfore means that there is not sufficent evidence to reject the null hypothesis
+>The results produce a p-value of `0.05`; this therfore means that there is not sufficent evidence to reject the null hypothesis
 >
 >**Image showing the results of the T-Test on all Lots:**
 >
