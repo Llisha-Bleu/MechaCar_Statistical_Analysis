@@ -18,7 +18,7 @@ The purpose of this project is to review the production data of AutosRUs’ for 
 
 ## Resources
 - **Data Source:** MechaCar MPG dataset, Suspension Coil dataset
-- **Software:** R, Github
+- **Software:** R, Github, VisualStudio
 - **Abbreviation:** PSI = Pound(s) per Square Inch
 
 ## MechaCar Statistical Analysis Results
